@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+  
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    font-size: 24px;
+}
+.navbar-desktop a:nth-child(6) {
+
+  background-color: rgb(25, 199, 141);
+  color: #ffffff; 
+  text-decoration: none; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+
+}
+.navbar-desktop a:hover{
+color: rgb(255, 255, 255);
+}
+
+
+.navbar-desktop {
+  height: 15rem;
+  line-height: 6rem;
+  top: 0;
+  backdrop-filter: blur(5px);
+  background-color: rgba(4, 156, 24, 0.486);
+  border-bottom-right-radius: 25px;
+
+}
+
+
+.navbar-desktop a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+  
+    margin-left: 139px;
+
+    text-shadow:  solid rgba(255, 0, 0, 5);
+    text-decoration: none;
+    font-size: larger;
+}
+
+  h1{
+    text-align: center;
+    color: #ffffff;
+  }
+
+  
+  
+
+
