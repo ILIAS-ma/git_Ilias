@@ -115,7 +115,99 @@ button:hover {
 img{
   margin-left: 50px;
 }
+.container {
+  background-color: rgb(255, 187, 0);
+  padding: 30px;
+  margin-left: 130px;
+  margin-top: 90px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 1200px;
+  height: 350px;
+}
 
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(255, 187, 0);
+  margin: 50px;
+}
 
+.currency-container {
+  background-color: rgb(255, 187, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
+}
+
+.currency-box {
+  background-color: rgb(255, 187, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 10px;
+}
+
+.currency-box label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 25px;
+  background-color: rgb(255, 187, 0);
+}
+
+.currency-box select,
+.currency-box input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  height: 50px;
+  width: 400px;
+}
+
+.currency-box select:focus,
+.currency-box input:focus {
+  border-color: #ffffff;
+}
+input#amount-two{
+  background-color: #ffffff;
+}
+input[disabled] {
+  background-color: rgb(255, 255, 255);
+  cursor: not-allowed;
+}
+
+#rate {
+  margin: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  font-size: 25px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .currency-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .currency-box select,
+  .currency-box input {
+    width: 100%;
+  }
+}
 

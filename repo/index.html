@@ -32,5 +32,30 @@
       </div>
       
     </div>
+    <div class="container">
+      <h2>Currency Exchange Calculator</h2>
+      
+      <div class="currency-container">
+          <div class="currency-box">
+              <label for="currency-one">From:</label>
+              <select id="currency-one">
+                  <option value="" disabled selected>Select currency</option>
+              </select>
+              <input type="number" id="amount-one" placeholder="0" />
+          </div>
+  
+          <div class="currency-box">
+              <label for="currency-two"> ㅤ      To:</label>
+              <select id="currency-two">
+                  <option value="" disabled selected>Select currency</option>
+              </select>
+              <input type="number" id="amount-two" placeholder="0" disabled />
+          </div>
+      </div>
+      
+      <div id="rate"></div>
+  </div>
+  
+      <script src="script.js"></script>
   </body>
 </html>
