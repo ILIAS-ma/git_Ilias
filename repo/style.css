@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  background-color: black;
+}
 
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
     background-size: cover;
-  
+  color: white;
+  font-family: 'Poppins';
 }
 
 .text {
@@ -13,26 +17,27 @@ body {
     margin-right: 20px;
     font-size: 24px;
 }
+.navbar-desktop a :hover{
+  color: rgb(255, 187, 0);
+}
 .navbar-desktop a:nth-child(6) {
 
-  background-color: rgb(25, 199, 141);
+  background-color: rgb(0, 0, 0);
   color: #ffffff; 
   text-decoration: none; 
   padding: 10px 15px; 
   border-radius: 5px; 
 
 }
-.navbar-desktop a:hover{
-color: rgb(255, 255, 255);
-}
+
 
 
 .navbar-desktop {
-  height: 15rem;
-  line-height: 6rem;
+  height: 5rem;
+  padding: 3rem 0;
   top: 0;
   backdrop-filter: blur(5px);
-  background-color: rgba(4, 156, 24, 0.486);
+  background-color: rgba(0, 0, 0, 0.486);
   border-bottom-right-radius: 25px;
 
 }
@@ -48,13 +53,69 @@ color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: larger;
 }
-
+.navbar-desktop a:hover{
+  color: rgb(255, 187, 0);
+}
   h1{
-    text-align: center;
     color: #ffffff;
   }
+.box1{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
 
+.box1 div{
+  flex: 1
+}
+h1{
+  margin-left: 80px;
+  font-size: 65px;
+}
+.highlight {
+  color: rgb(255, 187, 0); /* Exemple de couleur */
   
+  text-transform: uppercase; /* Texte en majuscules */
+}
+.span a {
+  background-color:  rgb(255, 187, 0);
+  display: inline-block; 
+  width: 150px; 
+  height: 50px; 
+  text-align: center; 
+  line-height: 50px; 
+  color: white; 
+  border-radius: 5px;
   
+}
+p{
+  margin-left: 70px;
+  color: rgb(157, 157, 157);
+}
+button {
+  margin-left: 70px;
+  margin-top: 40px;
+  color: white;
+  background-color:  rgb(255, 187, 0);
+  padding: 15px 30px; /* Augmente le padding pour agrandir le bouton */
+  font-size: 18px; /* Augmente la taille du texte */
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 200px; /* Largeur explicite du bouton */
+  height: 60px; /* Hauteur explicite du bouton */
+}
+
+button:hover {
+  background-color: rgb(255, 187, 0); 
+  transform: scale(1.05); 
+}
+img{
+  margin-left: 50px;
+}
+
+
 
 
