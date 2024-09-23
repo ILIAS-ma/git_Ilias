@@ -1,36 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-  background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  background-color: rgb(0, 0, 0);
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-size: cover;
-  color: white;
-  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins";
 }
 
 .text {
-    color: rgb(0, 0, 0);
-    margin-right: 20px;
-    font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
+  font-size: 24px;
 }
-.navbar-desktop a :hover{
+.navbar-desktop a :hover {
   color: rgb(255, 187, 0);
 }
 .navbar-desktop a:nth-child(6) {
-
-  background-color: rgb(0, 0, 0);
-  color: #ffffff; 
-  text-decoration: none; 
-  padding: 10px 15px; 
-  border-radius: 5px; 
-
+  background-color: rgb(68, 68, 68);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
-
-
 
 .navbar-desktop {
   height: 5rem;
@@ -39,47 +35,44 @@ body {
   backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.486);
   border-bottom-right-radius: 25px;
-
 }
 
+.navbar-desktop a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
 
-.navbar-desktop a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-  
-    margin-left: 139px;
+  margin-left: 139px;
 
-    text-shadow:  solid rgba(255, 0, 0, 5);
-    text-decoration: none;
-    font-size: larger;
+  text-shadow: solid rgba(255, 0, 0, 5);
+  text-decoration: none;
+  font-size: larger;
 }
-.navbar-desktop a:hover{
+.navbar-desktop a:hover {
   color: rgb(255, 187, 0);
 }
-  h1{
-    color: #ffffff;
-  }
-.box1{
+h1 {
+  color: #ffffff;
+}
+.box1 {
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
 
-.box1 div{
-  flex: 1
+.box1 div {
+  flex: 1;
 }
-h1{
+h1 {
   margin-left: 80px;
   font-size: 65px;
 }
 .highlight {
-  color: rgb(255, 187, 0); 
-  
-  text-transform: uppercase; 
+  color: rgb(255, 187, 0);
+
+  text-transform: uppercase;
 }
 
-
-p{
+p {
   margin-left: 70px;
   color: rgb(157, 157, 157);
 }
@@ -87,23 +80,23 @@ button {
   margin-left: 70px;
   margin-top: 40px;
   color: white;
-  background-color:  rgb(255, 187, 0);
-  padding: 15px 30px; 
-  font-size: 18px; 
+  background-color: rgb(255, 187, 0);
+  padding: 15px 30px;
+  font-size: 18px;
   border: none;
   border-radius: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  width: 200px; 
-  height: 60px; 
+  width: 200px;
+  height: 60px;
 }
 
 button:hover {
-  background-color: rgb(255, 187, 0); 
-  transform: scale(1.05); 
+  background-color: rgb(255, 187, 0);
+  transform: scale(1.05);
 }
-img{
+img {
   margin-left: 50px;
 }
 .container {
@@ -123,6 +116,7 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
   background-color: rgb(255, 187, 0);
+  color: #ffffff;
   margin: 50px;
 }
 
@@ -131,7 +125,6 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
 .currency-box {
@@ -139,7 +132,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   margin-top: 10px;
 }
 
@@ -154,6 +147,7 @@ h2 {
 .currency-box select,
 .currency-box input {
   width: 300px;
+  color:rgb(255, 187, 0); 
   padding: 10px;
   font-size: 16px;
   border: 1px solid #000000;
@@ -172,7 +166,7 @@ h2 {
 .currency-box input:focus {
   border-color: #ffffff;
 }
-input#amount-two{
+input#amount-two {
   background-color: #ffffff;
 }
 input[disabled] {
@@ -185,7 +179,7 @@ input[disabled] {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #000000;
+  color: rgb(255, 187, 0);
   font-size: 25px;
   background-color: #ffffff;
 }

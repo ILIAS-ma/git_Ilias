@@ -2,86 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Currency Switch</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div class="navbar-desktop">
-      <a href="./index.html">Acceuil</a>
+      <a href="./index.html">Accueil</a>
       <a href="./index.html">Envoyer de l'argent</a>
       <a href="./login.html">Convertisseur</a>
       <a href="./s.html">Outils</a>
       <a href="./s.html">Connexion</a>
-     <span class="span"> <a href="./s.html">Inscription</a></span>
+      <span class="span"><a href="./s.html">Inscription</a></span>
     </div>
 
     <div class="box1">
       <div>
-        <h1> CurrencySwitch :<span class="highlight"> Le convertisseur de devises </span>instantané</h1>
-        <p>CurrencySwitch is the easiest, safest, and fastest way to buy & sell crypto asset exchange.</p>
-<button>Get Started Now</button>
+        <h1>CurrencySwitch : <span class="highlight">Le convertisseur de devises</span> instantané</h1>
+        <p>CurrencySwitch est le moyen le plus simple, sûr et rapide pour acheter et vendre des actifs cryptographiques.</p>
+        <button>Get Started Now</button>
       </div>
 
       <div class="img">
-        <img
-          src="https://codewithsadee.github.io/cryptex/assets/images/hero-banner.png"
-          alt=""
-        />
+        <img src="https://codewithsadee.github.io/cryptex/assets/images/hero-banner.png" alt="" />
       </div>
-      
     </div>
+
     <div class="container">
       <h2>Currency Exchange Calculator</h2>
-      
+
       <div class="currency-container">
-          <div class="currency-box">
-              <label for="currency-one">From:</label>
-              <select id="currency-one">
-                  <option value="" disabled selected>Select currency</option>
-              </select>
-              <input type="number" id="amount-one" placeholder="0" />
-          </div>
-  
-          <div class="currency-box">
-              <label for="currency-two"> ㅤ      To:</label>
-              <select id="currency-two">
-                  <option value="" disabled selected>Select currency</option>
-              </select>
-              <input type="number" id="amount-two" placeholder="0" disabled />
-          </div>
+        <div class="currency-box">
+          <label for="currency-one">From:</label>
+          <select id="currency-one">
+            <option value="" disabled selected>Select currency</option>
+          </select>
+          <input type="number" id="amount-one" placeholder="0" />
+        </div>
+
+        <div class="currency-box">
+          <label for="currency-two">To:</label>
+          <select id="currency-two">
+            <option value="" disabled selected>Select currency</option>
+          </select>
+          <input type="number" id="amount-two" placeholder="0" disabled />
+        </div>
       </div>
-      
+
       <div id="rate"></div>
-  </div>
-  <footer>
-    <div class="footerContainer">
-      <div class="socialIcons">
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href=""><i class="fa-brands fa-google-plus"></i></a>
-        <a href=""><i class="fa-brands fa-youtube"></i></a>
-      </div>
-      <div class="footerNav">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">News</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Our Team</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Service</a></li>
-        </ul>
-      </div>
-      <div class="footerBottom">
-        &copy; 2024 CurrencySwitch. All rights reserved.
-      </div>
     </div>
-  </footer>
-  
-      <script src="script.js"></script>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-google-plus"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footerBottom">
+          &copy; 2024 CurrencySwitch. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
